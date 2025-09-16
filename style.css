@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 90px; 
+  position: relative;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+  position: fixed;
+}
+
+/* Logo */
+.logo {
+  height: 100%;
+  width: 15%;
+  border-right: 1px solid rgba(128, 128, 128, 0.1);
+  padding: 12px 30px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+/* Location */
+.location {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  background-color: #fff;
+}
+
+.nav-loc {
+  font-size: 18px;
+  font-weight: 900;
+  color: #030303;
+}
+
+.loc {
+  font-size: 12px;
+  color: rgb(8, 8, 8);
+  margin-top: 2px;
+}
+
+/* Searchbar */
+.searchbar {
+  height: 100%;
+  width: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container {
+  width: 90%;
+  background-color: #f8f8f8;
+  padding: 6px 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(128, 128, 128, 0.15);
+}
+
+.search-container svg {
+  width: 16px;
+  height: 20px;
+  margin-right: 8px;
+  opacity: 0.6;
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  font-size: 14px;
+}
+
+/* Buttons */
+.buttons {
+  height: 100%;
+  width: 30%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.buttons button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.login {
+  background-color: transparent;
+  color: #555;
+  border: 1px solid #ddd;
+}
+
+.login:hover {
+  background-color: #f3f3f3;
+}
+
+.cart {
+  background-color: #54B226;
+  color: #fff;
+}
+
+.cart:hover {
+  background-color: #469a20;
+}
+
+/* Banners */
+.banners {
+  position: relative;
+  height: 40vh;
+  width: 100%;
+  background-color: #f3f3f3;
+  margin-top: 85px;
+}
+
+.banners img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+
+/* Categories */
+.categories {
+  position: relative;
+  display: flex;
+  height: 40vh;
+  width: 100%;
+}
+.categories img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-fit: scale-down;
+  cursor: pointer;
+}
+
+.categories .shortcut {
+  height: 100%;
+  width: 30%;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.products {
+  position: relative;
+  display: flex;
+   height: 40vh;
+  width: 100%;
+ 
+}
+
+.products img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-fit: scale-down;
+  cursor: pointer;
+
+}
+
+.mainsection {
+  position: relative;
+  display: flex;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  flex-direction: row;  
+  overflow-x: auto;         
+  overflow-y: hidden;    
+  white-space: nowrap;     
+  gap: 20px;              
+  padding: 16px 0;
+  scrollbar-width: none;  
+}
+
+.section {
+  width: 200px;
+  height: 300px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 6px #0002;
+  padding: 12px;
+  flex-shrink: 0;      
+  margin-right: 8px;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+}
+
+.mainsection img {
+  height: 150px;
+}
+
+.time {
+  padding-left: 6px;
+}
+
+.product_name h3 {
+  font-size: 14px;
+  font-weight: 100;      
+  overflow-y: auto;
+  padding-bottom: 10px;
+}
+
+.product_quntity {
+  font-size: 14px;
+  color: #3b3a3ae7;
+  font-weight: 20;
+}
+
+.both{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.product_price {
+  font-size: 10px;
+  font-weight: 50;
+  padding-top: 5px;
+}
+
+.addbtn {
+  padding: 10px 30px;
+  background-color: #f6fffa; 
+  color: #228b22;           
+  border: 1px solid #228b22;  
+  border-radius: 12px;         
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
