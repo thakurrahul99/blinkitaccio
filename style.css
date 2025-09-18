@@ -118,12 +118,12 @@ nav {
 }
 
 .cart {
-  background-color: #54B226;
+  background-color: #6ab146;
   color: #fff;
 }
 
 .cart:hover {
-  background-color: #469a20;
+  background-color: #479a20a5;
 }
 
 /* Banners */
@@ -253,4 +253,111 @@ nav {
   font-size: 12px;
   font-weight: 600;
   cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  width: 100%;
+}
+
+
+
+.useful-links {
+  height: 80vh;
+  width: 32%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.useful-links h1 {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 80px;
+  padding-top: 10px;
+  color: #646464d8;
+}
+
+.lists ul {
+  list-style: none;;
+}
+
+.lists ul li {
+  padding: 4px 0;
+  cursor: pointer;
+}
+
+.cat-links {
+  height: 100vh;
+  width: 60%;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.cat-links h1 {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.upper {
+  display: flex;
+  padding-left: 140px;
+  align-items: center;
+}
+
+.upper .copy {
+  font-size: 12px;
+  color: #7d7b7ba1;
+}
+
+.upper .download {
+  font-size: 14px;
+  color: #555;
+  font-weight: 600;
+  margin-left: 80px;
+  margin-right: 20px;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  margin-right: 30px;
+}
+
+.social img {
+  margin: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.upper .icons {
+  font-size: 40px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.lower {
+  margin: 12px 2px 1px 8px;
+  font-size: 15px;
+  color: #555555d6;
+  font-family: Arial, Helvetica, sans-serif;
 }
